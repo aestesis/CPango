@@ -1,5 +1,5 @@
-module CPango {
-	header "pango_bridging.h"
+module CPango [system] {
+	header "/usr/include/pango-1.0/pango.h"
 	link "pangocairo-1.0"
 	link "pangoft2-1.0"
 	link "fontconfig"
