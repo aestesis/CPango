@@ -10,5 +10,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "CPango",dependencies: [])
-    ]
+    ],
+    ,
+    pkgConfig: "Pango-1.0"
 )

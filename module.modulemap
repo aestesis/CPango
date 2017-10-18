@@ -1,13 +1,7 @@
 module CPango [system] {
 	header "/usr/include/pango-1.0/pango/pango.h"
-	link "pangocairo-1.0"
-	link "pangoft2-1.0"
 	link "fontconfig"
 	link "freetype"
 	link "pango-1.0"
-	link "cairo"
-	link "cairo-gobject"
-	link "gobject-2.0"
-	link "glib-2.0"
 	export *
 }
