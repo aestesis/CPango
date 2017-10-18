@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CPango",
-    pkgConfig: "Pango-1.0",
+    pkgConfig: "pango",
 	products: [
         .library(name: "CPango",targets: ["CPango"]),
     ],
