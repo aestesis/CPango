@@ -4,8 +4,11 @@ import PackageDescription
 let package = Package(
     name: "CPango",
     pkgConfig: "pango",
+    providers: [ 
+    	.apt(["libpango1.0-dev"]) 
+    ],
 	products: [
-        .library(name: "CPango",targets: ["CPango"]),
+        .library(name: "CPango",targets: ["CPango"])
     ],
     dependencies: [
     ],
