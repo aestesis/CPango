@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CPango",
-    pkgConfig: "pango freetype2",
+    pkgConfig: "pango,freetype2",
     providers: [ 
     	.apt(["libpango1.0-dev freetype2"]) 
     ],
