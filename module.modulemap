@@ -1,7 +1,6 @@
 module CPango [system] {
 	header "/usr/include/pango-1.0/pango/pango.h"
 	header "/usr/include/pango-1.0/pango/pangoft2.h"
-	header "/usr/include/freetype2/ft2build.h"
 	link "fontconfig"
 	link "freetype"
 	link "pango-1.0"
