@@ -4,5 +4,6 @@ module CPango [system] {
 	link "fontconfig"
 	link "freetype"
 	link "pango-1.0"
+	link "pangoft2-1.0"
 	export *
 }
