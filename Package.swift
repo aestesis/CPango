@@ -10,6 +10,12 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .systemLibrary(name: "CPango")
+        .systemLibrary(name: "CPango",
+            pkgConfig: "pango",
+	        providers: [
+		        .brew(["pango", "glib", "glib-networking", "gobject-introspection"]),
+		        .apt(["libpango1.0-dev", "libglib2.0-dev", "glib-networking", "gobject-introspection", "libgirepository1.0-dev"])
+	        ]
+        )
     ]
 )
