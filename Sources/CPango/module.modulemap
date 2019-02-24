@@ -1,5 +1,4 @@
 module CPango [system] {
-	header <sys/types.h>
 	header "/usr/include/pango-1.0/pango/pango.h"
 	header "/usr/include/pango-1.0/pango/pangoft2.h"
 	link "fontconfig"
